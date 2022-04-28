@@ -1,0 +1,217 @@
+* {
+  color: white;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-size: 1.75vh;
+  font-family: Tahoma, sans-serif;
+  user-select: none;
+  overscroll-behavior: none;
+}
+
+body {
+  background-color: black;
+}
+
+h1 {
+  font-size: 3vh;
+  font-weight: normal;
+}
+
+
+button {
+  line-height: 0;
+  border-radius: 50%;
+  cursor: pointer;
+  border: .25vh solid white;
+  width: 7.5vh;
+  height: 7.5vh;
+  background-color: #272838;
+}
+
+:focus {
+  outline: none;
+}
+
+:disabled {
+  filter: brightness(.5) grayscale(.75);
+  cursor: not-allowed;
+}
+
+.text-lg {
+  font-size: 2.5vh;
+}
+
+.fill-absolute {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overscroll-behavior: none;
+}
+
+.flex {
+  display: flex
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-centered {
+  align-items: center;
+  justify-content: center;
+}
+
+.centered {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.full {
+  width: 100%;
+  height: 100%;
+}
+
+.full-w {
+  width: 100%;
+}
+
+.full-h {
+  height: 100%;
+}
+
+.pink {
+  color: #ff4c7a;
+}
+
+.green {
+  color: #00e19e;
+}
+
+.row-label {
+  width: 8vh;
+  /* flex-basis: 3vh; */
+}
+
+.hidden {
+  display: none;
+}
+
+.mb-half {
+  margin-bottom: .5vh;
+}
+
+.m-1 {
+  margin: 1vh;
+}
+
+.mb-5 {
+  margin-bottom: 5vh;
+}
+
+.mt-2 {
+  margin-top: 2vh;
+}
+
+.mb-2 {
+  margin-bottom: 2vh;
+}
+
+.item-stats {
+  line-height: 2.5vh;
+}
+
+.hide-intro {
+  transition-duration: 1500ms;
+  opacity: 0;
+}
+
+.hint {
+  font-style: italic;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 75vh;
+  text-align: center;
+  width: 30vh;
+  color: #00f9ff;
+}
+
+#menu-notes {
+  position: absolute;
+  top: .5vh;
+  left: .5vh;
+}
+
+#intro {
+  transition-duration: 1500ms;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+#title {
+  font-size: 10vh;
+  font-family: Impact;
+  letter-spacing: 1vh;
+  filter: drop-shadow(0 0 1vh rgba(255,255,255,.5));
+}
+
+#canvas-tiles {
+  filter: drop-shadow(0 0 3vh rgba(255,255,255,.3));
+  overflow: hidden;
+}
+
+#canvas-pre {
+  background-color: #272838;
+}
+
+#osh {
+  color: #ff4c7a;
+}
+
+#inh {
+  color: #00e19e;
+}
+
+#menu-button {
+  position: absolute;
+  align-self: flex-end;
+  background: rgba(255, 255, 255, 0.1);
+  transition-duration: 250ms;
+  transform: rotate(45deg);
+}
+
+#canvas-stats {
+  cursor: grab;
+}
+
+#menu, #inner-inspect {
+  background: rgba(0,0,0,.85);
+}
+
+#menu {
+  justify-content: flex-start;
+}
+
+#close-inspect {
+  position: absolute;
+  top: 1vh;
+  left: 1vh;
+  width: 5vh;
+  height: 5vh;
+}
+
+#inner-inspect {
+  position: relative;
+  width: 100%;
+  height: 50%;
+  box-sizing: border-box;
+}
+
+#sell-button {
+  border-radius: 3vh;
+  border: .25vh solid white;
+  padding: 2vh;
+  width: unset;
+  height: unset;
+}
